@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .header__item {
+    width: 100%;
+    max-width: 800px;
+    background-color: rgb(233, 218, 218);
+    height: 500px;
+    border-radius: 20px;
+    margin-top: 60px;
+  }
+  
+  .headet__image {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+  .player {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  #title {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+  }
+  
+  #imageOne,
+  #imageTwo {
+    background-color: white;
+    border-radius: 38px;
+  }
+  
